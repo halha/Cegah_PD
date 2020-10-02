@@ -42,7 +42,7 @@
   font-size: 7rem;
   text-transform: uppercase;
   color: var(--red);
-  font-family: "Roboto", sans-serif;
+  font-family: "OpenSans", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -51,6 +51,8 @@
   font-size: 32px;
   font-size: 2rem;
   text-transform: uppercase;
+  font-family: "Roboto",
+    sans-serif;
   color: var(--red);
 }
 
@@ -61,6 +63,8 @@
   display: block;
   margin-bottom: 40px;
   font-size: 17.6px;
+  font-family: "OpenSans",
+    sans-serif;
   font-size: 1.1rem;
 }
 
@@ -68,6 +72,8 @@
   font-size: 17.6px;
   font-size: 1.1rem;
   font-weight: bold;
+  font-family: "Roboto",
+    sans-serif;
 }
 
 #sec1 .img-box {
@@ -93,7 +99,9 @@
   margin-bottom: 100px;
   font-size: 17.6px;
   font-size: 1.1rem;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: "Roboto",
+    sans-serif;
 }
 
 #sec1 .bg-1 {
@@ -143,6 +151,8 @@
 #sec1 .center-page .title-2 {
   text-transform: uppercase;
   font-weight: bold;
+  font-family: "Roboto",
+    sans-serif;
 }
 
 #sec1 .center-page .title-2 h2 {
@@ -150,6 +160,8 @@
   font-size: 32px;
   font-size: 2rem;
   color: var(--red);
+  font-family: "OpenSans",
+    sans-serif;
 }
 
 #sec1 .center-page .title-2 h1 {
@@ -157,7 +169,7 @@
   font-size: 144px;
   font-size: 9rem;
   color: var(--red);
-  font-family: "Roboto", sans-serif;
+  font-family: "OpenSans", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -165,6 +177,9 @@
   text-transform: none;
   font-size: 17.6px;
   font-size: 1.1rem;
+  font-family: "Roboto",
+    sans-serif;
+
 }
 
 #sec1 .center-page .title-2 p.box {
@@ -211,6 +226,9 @@
   font-size: 40px;
   font-size: 2.5rem;
   text-transform: capitalize;
+  font-family: "OpenSans",
+    sans-serif;
+
 }
 
 #sec1 .content.c-3 h2 {
@@ -218,11 +236,17 @@
   font-size: 32px;
   font-size: 2rem;
   text-transform: capitalize;
+  font-family: "OpenSans",
+    sans-serif;
+
 }
 
 #sec1 .content.c-3 p {
   font-size: 17.6px;
   font-size: 1.1rem;
+  font-family: "Roboto",
+    sans-serif;
+
 }
 
 #sec1 .content.c-4 {
@@ -271,6 +295,9 @@
   margin-top: 25%;
   font-size: 20px;
   font-size: 1.25rem;
+  font-family: "Roboto",
+    sans-serif;
+
 }
 
 #sec1 .content-chat:last-child .chat p {
@@ -317,6 +344,9 @@
     margin: 0 auto;
     font-weight: bold;
     color: var(--red);
+    font-family: "Roboto",
+      sans-serif;
+
   }
 
   #sec1 .content-chat:last-child .chat p {
@@ -352,14 +382,23 @@
 
   #sec1 .content.c-3 h1 {
     font-size: 2rem;
+    font-family: "OpenSans",
+      sans-serif;
+
   }
 
   #sec1 .content.c-3 h2 {
     font-size: 1.5rem;
+    font-family: "OpenSans",
+      sans-serif;
+
   }
 
   #sec1 .content.c-3 p {
     font-size: 1rem;
+    font-family: "Roboto",
+      sans-serif;
+
   }
 
   /* PENDERITA */
