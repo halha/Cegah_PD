@@ -42,7 +42,7 @@
   font-size: 7rem;
   text-transform: uppercase;
   color: var(--red);
-  font-family: "PoplarStd", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -157,7 +157,7 @@
   font-size: 144px;
   font-size: 9rem;
   color: var(--red);
-  font-family: "PoplarStd", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 5px;
 }
 

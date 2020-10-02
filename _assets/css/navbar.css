@@ -8,13 +8,13 @@
 }
 
 @font-face {
-  font-family: "GeosansLight";
-  src: url("../font/GeosansLight.ttf") format("truetype");
+  font-family: "OpenSans";
+  src: url("../font/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "PoplarStd";
-  src: url("../font/PoplarStd.otf") format("truetype");
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf") format("truetype");
 }
 
 * {
@@ -117,23 +117,25 @@ nav ul li {
 
 nav ul li a {
   position: relative;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
   color: var(--black);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-transform: uppercase;
   color: var(--red);
+  font-family: "Roboto", sans-serif;
 }
 
 nav ul li a.logo {
   display: block;
-  font-size: 32px;
+  /* font-size: 32px; */
   font-size: 2rem;
   font-weight: bold;
   color: var(--black);
-  font-family: "PoplarStd", sans-serif;
+  font-family: "OpenSans", sans-serif;
   letter-spacing: 5px;
 }
 

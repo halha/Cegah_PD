@@ -8,14 +8,15 @@
 }
 
 @font-face {
-  font-family: "GeosansLight";
-  src: url("../font/GeosansLight.ttf") format("truetype");
+  font-family: "OpenSans";
+  src: url("../font/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "PoplarStd";
-  src: url("../font/PoplarStd.otf") format("truetype");
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf") format("truetype");
 }
+
 
 * {
   margin: 0;
@@ -25,7 +26,7 @@
 
 body {
   background: var(--white);
-  font-family: "GeosansLight", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -55,7 +56,8 @@ nav .logo-res {
 nav .logo-res a {
   text-decoration: none;
   color: var(--black);
-  font-family: "PoplarStd", sans-serif;
+  font-family: "OpenSans",
+    sans-serif;
   letter-spacing: 5px;
 }
 
