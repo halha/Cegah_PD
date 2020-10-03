@@ -8,7 +8,7 @@ a.button {
   border-radius: 25px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 a.button.white {
@@ -109,7 +109,7 @@ a.button.black:hover {
   font-size: 112px;
   font-size: 7rem;
   width: 100%;
-  font-family: "PoplarStd", sans-serif;
+  font-family: "OpenSans", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -160,7 +160,7 @@ a.button.black:hover {
 }
 
 #sec2 .content h3 {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--white);
   margin-bottom: 30px;
 }
@@ -306,6 +306,11 @@ canvas {
   border-radius: 20px;
 }
 
+#sec4 .chat-2 .chat .content p {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
 /* SEC5 */
 #sec5 .content.c-4 {
   width: 35%;
@@ -318,7 +323,7 @@ canvas {
 #sec5 .content.c-4 p {
   font-size: 17.6px;
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #sec5 .img-box-2 {
@@ -395,6 +400,7 @@ canvas {
 }
 
 @media screen and (max-width: 768px) {
+
   /* UNIVERSAL */
   .bg-white {
     background: var(--white);
@@ -482,6 +488,7 @@ canvas {
 }
 
 @media screen and (max-width: 425px) {
+
   /* SEC1 */
   #sec1 h1 {
     top: 80%;
